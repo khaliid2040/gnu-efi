@@ -29,13 +29,6 @@ struct acpi {
     struct acpi *next;
 };
 
-
-void gpu_info();
-
-//for accessing function implemented in extra/exra_func.c
-void get_pci_info(void);
-
-
 void system_enum(void);
 
 void acpi_info(void);
