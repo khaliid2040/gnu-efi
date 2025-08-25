@@ -1,3 +1,4 @@
+CC = gcc
 # Include config.mk to load CFLAGS, LDFLAGS, and other settings
 ifneq ($(wildcard config.mk),)
     include config.mk
